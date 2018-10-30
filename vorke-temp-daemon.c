@@ -113,27 +113,27 @@ static void setFanSpeed(uint16_t speed)
 static void tempControl()
 {
     double temp = readTemp();
-    if (temp <= 45.0) {
+    if (temp <= 50.0) {
         setFanSpeed(0);
-    } else if (temp <= 50.0) {
-        setFanSpeed(1);
-    } else if (temp <= 55.0) {
-        setFanSpeed(2);
     } else if (temp <= 60.0) {
-        setFanSpeed(3);
-    } else if (temp <= 62.0) {
-        setFanSpeed(4);
-    } else if (temp <= 64.0) {
-        setFanSpeed(5);
+        setFanSpeed(1);
+    } else if (temp <= 65.0) {
+        setFanSpeed(2);
     } else if (temp <= 66.0) {
-        setFanSpeed(6);
+        setFanSpeed(3);
+    } else if (temp <= 67.0) {
+        setFanSpeed(4);
     } else if (temp <= 68.0) {
-        setFanSpeed(7);
+        setFanSpeed(5);
+    } else if (temp <= 69.0) {
+        setFanSpeed(6);
     } else if (temp <= 70.0) {
+        setFanSpeed(7);
+    } else if (temp <= 71.0) {
         setFanSpeed(8);
     } else if (temp <= 72.0) {
         setFanSpeed(9);
-    } else if (temp <= 74.0) {
+    } else if (temp <= 75.0) {
         setFanSpeed(10);
     } else {
         setFanSpeed(11);
