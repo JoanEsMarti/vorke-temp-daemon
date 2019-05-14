@@ -1,5 +1,6 @@
 # Fan speed control for Vorke V1 Plus on Ubuntu 17.10
 
+test
 I recently purchased this mini-PC. After installing Ubuntu 17.10
 the fan speed is set to maximum on boot. I've searched for a solution
 and found no one.
